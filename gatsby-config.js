@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Waxon Portfolio React Template`,
+    title: `itay Portfolio React Template`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: "http://localhost:8000/",
@@ -32,15 +32,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-          fonts: [
-            `Montserrat ital`,
-            `sans-serif\:300`, `300i`, `400`, `400i`, `500`, `600`, `700`, `900`
-        ],
         fonts: [
-          `Mulish`,
-          `sans-serif\:300`, `400`, `500`, `600`, `700`
+          `Montserrat ital`,
+          `sans-serif\:300`,
+          `300i`,
+          `400`,
+          `400i`,
+          `500`,
+          `600`,
+          `700`,
+          `900`,
         ],
-        display: 'swap',
+        fonts: [`Mulish`, `sans-serif\:300`, `400`, `500`, `600`, `700`],
+        display: "swap",
       },
     },
 
@@ -56,12 +60,12 @@ module.exports = {
         icon: `src/assets/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    
+
     {
-        resolve: "gatsby-plugin-anchor-links",
-        options: {
-          offset: -100
-        }
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+      },
     },
 
     {
@@ -71,7 +75,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1920
+              maxWidth: 1920,
             },
           },
         ],
@@ -81,9 +85,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-json`,
-    
-    
-    
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
