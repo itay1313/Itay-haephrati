@@ -13,10 +13,6 @@ const About = () => {
         description2
         downloadButton
         linkBUtton
-        aboutData {
-          label
-          value
-        }
       }
       file(relativePath: { eq: "images/banner/person-image.jpg" }) {
         childImageSharp {
@@ -35,7 +31,6 @@ const About = () => {
   const downloadButton = aboutQueryData.homedefaultJson.downloadButton
   const linkBUtton = aboutQueryData.homedefaultJson.linkBUtton
   const PortfolioImages = aboutQueryData.file.childImageSharp.fixed
-  const age = aboutQueryData.file.childImageSharp.aboutData
 
   return (
     <div
@@ -110,16 +105,6 @@ const About = () => {
                     >
                       <span>{downloadButton}</span>
                     </a>
-                  )}
-                </div>
-                <div className="age">
-                  {aboutData && (
-                    <p
-                      className="description wow fadeInLeft"
-                      data-wow-delay="200ms"
-                      data-wow-duration="1000ms"
-                      dangerouslySetInnerHTML={{ __html: aboutData }}
-                    ></p>
                   )}
                 </div>
               </div>
