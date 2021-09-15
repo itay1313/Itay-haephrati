@@ -1,19 +1,18 @@
 ---
-title: 'What is the Difference between Web and Brand Design its has.'
+title: 'How to add an animated clouds divider'
 date: "2020-02-04 05:00:00"
-author: 'Rainbow'
+author: 'Itayko'
 format: 'image'
 image: '../images/blog/blog-1.jpg'
-category: Themeforest
+category: Elementor
 tags: 
-    - react
-    - gatsby
-    - styled components
-    - Themeforest
+    - elementor
+    - wordpress
+    - css
+    - Divider
 is_featured: true
 ---
-As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about.
-As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. We thought a book is quite a wait away and decided to share some of the notes from his New York business meetings meanwhile.
+In my last project, I got challenged to animate a clouds image, this is the designed clouds I got 
 <blockquote>
 <p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. We thought a book is quite a wait away and decided to share some of the notes from his New York business meetings meanwhile.</p>
 </blockquote>

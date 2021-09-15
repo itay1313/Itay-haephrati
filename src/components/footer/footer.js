@@ -53,8 +53,8 @@ const Footer = ({ showBelow }) => {
             >
               <div className="ft-info">
                 <p>
-                  Rainbow 103, <br />
-                  0021 New York, USA
+                  Tel mond, <br />
+                  Israel
                 </p>
               </div>
             </div>
@@ -65,9 +65,9 @@ const Footer = ({ showBelow }) => {
             >
               <div className="ft-info">
                 <p>
-                  hi@itay.com
+                  itaycode@gmail.com
                   <br />
-                  +77 033 442 55 57
+                  +972503782614
                 </p>
               </div>
             </div>

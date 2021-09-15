@@ -130,7 +130,7 @@ const BannerParticles = () => {
             <div className="rn-slide slider-style-01 banner-fixed-height">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-8 col-xl-6">
+                        <div className="col-lg-8 col-xl-7">
                             <div className="inner">
                                 <div className="content text-left">
                                     <h1 className="title wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms" dangerouslySetInnerHTML={{ __html: Title }}></h1>
